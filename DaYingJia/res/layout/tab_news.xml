@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ccc"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_h"
+        android:background="#0077b7"
+        android:paddingLeft="@dimen/home_btn_refresh"
+        android:paddingRight="@dimen/home_btn_refresh" >
+
+        <!-- android:background="@color/titlebar_bg_red" -->
+
+        <Button
+            android:id="@+id/btn_selected"
+            style="@style/titlebar_left_textview"
+            android:text="选择" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/titlebar_title"
+            android:text="新闻资讯" />
+
+        <Button
+            android:id="@+id/btn_keeped"
+            style="@style/titlebar_right_textview"
+            android:text="我的收藏" />
+    </RelativeLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ExpandableListView
+            android:id="@+id/left_drawer"
+            android:layout_width="@dimen/drawer_w"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#111"
+            android:cacheColorHint="@null"
+            android:childDivider="@color/hui"
+            android:childIndicatorLeft="0dp"
+            android:divider="#333"
+            android:dividerHeight="1dp"
+            android:groupIndicator="@null"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:scrollbars="none" >
+        </ExpandableListView>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000"
+        android:scrollbarSize="0.0sp"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/listHigh"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <ListView
+                    android:id="@+id/priceNameListView"
+                    android:layout_width="@dimen/listbar_name_w"
+                    android:layout_height="fill_parent"
+                    android:divider="#FFFFFF"
+                    android:fastScrollEnabled="false"
+                    android:scrollbars="none" >
+                </ListView>
+
+                <com.hzwydyj.finace.view.SyncHorizontalScrollView
+                    android:id="@+id/scrollList"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:scrollbarSize="0.0sp"
+                    android:scrollbars="none" >
+
+                    <ListView
+                        android:id="@+id/priceListView"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:divider="#FFFFFF"
+                        android:fastScrollEnabled="false"
+                        android:scrollbars="none" >
+                    </ListView>
+                </com.hzwydyj.finace.view.SyncHorizontalScrollView>
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/pb"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</merge>

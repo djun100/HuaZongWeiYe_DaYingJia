@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="yellowbar_height">30dp</dimen>
+    <dimen name="actionbar_h">48dp</dimen>
+    <dimen name="bottombar_h">48dp</dimen>
+    <dimen name="priceview_bottom_h">48dp</dimen>
+    <dimen name="priceview_bottom_text_s">22sp</dimen>
+    <dimen name="price_item_text">18sp</dimen>
+    <dimen name="price_item_height">30dp</dimen>
+    <dimen name="paddinglr">20dp</dimen>
+    <dimen name="paddinglr_x2">16dp</dimen>
+    <dimen name="tabbar_h">50dp</dimen>
+    <dimen name="titlebar_h">50dp</dimen>
+    <dimen name="titlebar_title_s">24sp</dimen>
+    <dimen name="listbar_h">40dp</dimen>
+    <dimen name="listbar_name_w">110dp</dimen>
+    <dimen name="titlebar_left_textview_s">18sp</dimen>
+    <dimen name="home_btn_img_hw">32dp</dimen>
+    <dimen name="home_btn_text_s">16sp</dimen>
+    <dimen name="home_ad_title_s">22sp</dimen>
+    <dimen name="drawer_w">220dp</dimen>
+    <dimen name="home_btn_refresh">10dp</dimen>
+    <dimen name="home_btn">5dp</dimen>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/paddinglr"
+    android:layout_marginTop="@dimen/paddinglr"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/home_btn_layout3" >
+
+        <LinearLayout
+            android:id="@+id/btn_10"
+            style="@style/home_btn_style"
+            android:background="@color/home_btn_c00" >
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/homeimg_10" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_11"
+            style="@style/home_btn_style"
+            android:background="@color/home_btn_09c" >
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/homeimg_11" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_11" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_12"
+            style="@style/home_btn_style"
+            android:background="@color/home_btn_93c" >
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/homeimg_12" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_12" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_btn_layout3" >
+
+        <Button
+            android:id="@+id/btn_13"
+            style="@style/home_btn_style"
+            android:background="@color/huan_s"
+            android:text="@string/home_btn_13"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_14"
+            style="@style/home_btn_style"
+            android:background="@color/hong_s"
+            android:text="@string/home_btn_14"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_15"
+            style="@style/home_btn_style"
+            android:background="@color/huan_q"
+            android:text="@string/home_btn_15"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_btn_layout3" >
+
+        <Button
+            android:id="@+id/btn_16"
+            style="@style/home_btn_style"
+            android:background="@color/zi_q"
+            android:text="@string/home_btn_16"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_17"
+            style="@style/home_btn_style"
+            android:background="@color/lv_q"
+            android:text="@string/home_btn_17"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_18"
+            style="@style/home_btn_style"
+            android:background="@color/lan_q"
+            android:text="@string/home_btn_18"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

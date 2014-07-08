@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/headcolumnhead"
+        android:layout_width="100.0dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:dividerHeight="1dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/headpricename"
+            android:layout_width="100.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/price_name_text"
+            android:textColor="@color/white"
+            android:textSize="19sp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:src="@drawable/more" />
+    </RelativeLayout>
+
+</merge>

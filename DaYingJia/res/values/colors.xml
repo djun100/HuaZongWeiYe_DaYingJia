@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#40FF00</color>
+    <color name="lightblue">#B0C4DE</color>
+    <color name="orange">#FF4000</color>
+    <color name="color_divider">#ffb5b5b5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_notfull">#eee</color>
+    <color name="gold">#FF8000</color>
+    <color name="black">#000000</color>
+    <color name="hui">#e5e5e5</color>
+    <color name="gary">#8E8E8E</color>
+    <color name="huise">#333333</color>
+    <color name="titlebar_bg">#333</color>
+    <color name="titlebar_bg_red">#a80612</color>
+    <color name="listbar_bg">#eee</color>
+    <color name="new_green">#45a60b</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="Grey">#BEBEBE</color>
+    <color name="lan_s">#09c</color>
+    <color name="lan_q">#33B5E5</color>
+    <color name="zi_s">#93c</color>
+    <color name="zi_q">#a6c</color>
+    <color name="lv_s">#690</color>
+    <color name="lv_q">#9c0</color>
+    <color name="huan_s">#f80</color>
+    <color name="huan_q">#fb3</color>
+    <color name="hong_s">#c00</color>
+    <color name="hong_q">#f44</color>
+    <color name="nextBlack">#747474</color>
+    <color name="ht_blue">#039dea</color>
+    <color name="jdbj_hui">#a0a0a0</color>
+    <color name="screenshot_white">#f7f7f7</color>
+    <color name="ccc">#ccc</color>
+    <color name="tab_beijing">#1d80d2</color>
+    <color name="text_beijing">#1c74da</color>
+    <color name="layout_beijing">#efffef</color>
+
+</resources>

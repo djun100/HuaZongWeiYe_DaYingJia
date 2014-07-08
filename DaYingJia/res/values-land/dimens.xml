@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="priceview_bottom_h">30dp</dimen>
+    <dimen name="priceview_bottom_text_s">18sp</dimen>
+
+</resources>

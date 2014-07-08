@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="typeitem">
+        <item>MACD平滑异同异动</item>
+        <item>VOL成交量</item>
+        <item>RSI强弱指标</item>
+        <item>BOLL布林线</item>
+        <item>KDJ随机指标</item>
+        <item>OBV能量潮</item>
+        <item>CCI顺势</item>
+        <item>PSY心理线</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="chosetime">
+        <item>日线</item>
+        <item>周线</item>
+        <item>1分</item>
+        <item>5分</item>
+        <item>15分</item>
+        <item>30分</item>
+        <item>60分</item>
+        <item>取消</item>
+    </string-array>
+
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新中</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh</string>
+    <string name="label1">黄金行情</string>
+    <string name="label2">全球市场</string>
+    <string name="label3">资讯中心</string>
+    <string name="label4">我的自选</string>
+    <string name="label5">交易策略</string>
+    <string name="label6">汇通网</string>
+    <string name="label7">客户服务</string>
+    <string name="label8">网友讨论</string>
+    <string name="label9">退出系统</string>
+    <string name="app_name">大赢家</string>
+    <string name="home_ad_title">渊渟泽汇 通功易事</string>
+    <string name="home_ad_title_front">汇 通</string>
+    <string name="ht_title">汇通财经</string>
+    <string name="ht_optional">我的自选</string>
+    <string name="ht_news">新闻资讯</string>
+    <string name="ht_price">行情信息</string>
+    <string name="ht_system">系统设置</string>
+    <string name="ht_calendar">财经日历</string>
+    <string name="search_label">代码:</string>
+    <string name="default4">----</string>
+    <string name="default2">--</string>
+    <string name="defaultvalue">0.00</string>
+    <string name="defaultpercent">0.00%</string>
+    <string name="defaulttime">00/00</string>
+    <string name="shgold">上海金</string>
+    <string name="hjxh">现货金</string>
+    <string name="stockindex">全球股指</string>
+    <string name="wh">外汇</string>
+    <string name="daytype">日线</string>
+    <string name="weektype">周线</string>
+    <string name="montype">月线</string>
+    <string name="type1m">1分</string>
+    <string name="type5m">5分</string>
+    <string name="type15m">15分</string>
+    <string name="type30m">30分</string>
+    <string name="type60m">60分</string>
+    <string name="indexSel">指标▼</string>
+    <string name="price_code">代码</string>
+    <string name="price_name_text">名称</string>
+    <string name="price_name">名字</string>
+    <string name="price_quotetime">时间</string>
+    <string name="price_low">最低</string>
+    <string name="price_last">最新</string>
+    <string name="price_close">昨收</string>
+    <string name="price_settle">昨结算</string>
+    <string name="price_posi">持仓量</string>
+    <string name="price_buy">买价</string>
+    <string name="price_aml">振幅</string>
+    <string name="price_sell">卖价</string>
+    <string name="price_updown">涨跌</string>
+    <string name="price_updownrate">涨跌幅</string>
+    <string name="price_average">均价</string>
+    <string name="price_sequenceno">行情序号</string>
+    <string name="price_high">最高</string>
+    <string name="price_highlimit">涨停板</string>
+    <string name="price_lastclose">昨收</string>
+    <string name="price_lastsettle">昨结算</string>
+    <string name="price_lowlimit">跌停板</string>
+    <string name="price_open">开盘</string>
+    <string name="price_turnover">成交额</string>
+    <string name="price_volume">成交量</string>
+    <string name="price_weight">成交（双边）重量</string>
+    <string name="price_ask1">卖五档价格1</string>
+    <string name="price_ask2">卖五档价格2</string>
+    <string name="price_ask3">卖五档价格3</string>
+    <string name="price_ask4">卖五档价格4</string>
+    <string name="price_ask5">卖五档价格5</string>
+    <string name="price_asklot1">卖五档量1</string>
+    <string name="price_asklot2">卖五档量2</string>
+    <string name="price_asklot3">卖五档量3</string>
+    <string name="price_asklot4">卖五档量4</string>
+    <string name="price_asklot5">卖五档量5</string>
+    <string name="price_bid1">买五档价格1</string>
+    <string name="price_bid2">买五档价格2</string>
+    <string name="price_bid3">买五档价格3</string>
+    <string name="price_bid4">买五档价格4</string>
+    <string name="price_bid5">买五档价格5</string>
+    <string name="price_bidlot1">买五档量1</string>
+    <string name="price_bidlot2">买五档量2</string>
+    <string name="price_bidlot3">买五档量3</string>
+    <string name="price_bidlot4">买五档量4</string>
+    <string name="price_bidlot5">买五档量5</string>
+    <string name="fenbi_time">时间</string>
+    <string name="fenbi_price">价格</string>
+    <string name="fenbi_volume">现手</string>
+    <string name="cal_country">国家</string>
+    <string name="cal_item">指标名称</string>
+    <string name="cal_importance">重要性</string>
+    <string name="cal_lastvalue">前值</string>
+    <string name="cal_prediction">预测值</string>
+    <string name="cal_actual">公布值</string>
+    <string name="home_btn_01">贵金属行情</string>
+    <string name="home_btn_02">全球市场</string>
+    <string name="home_btn_03">新闻资讯</string>
+    <string name="home_btn_04">ETF</string>
+    <string name="home_btn_05">名师讲堂</string>
+    <string name="home_btn_06">汇率换算</string>
+    <string name="home_btn_07">赢家内参</string>
+    <string name="home_btn_08">开户指南</string>
+    <string name="home_btn_09">汇通专家团</string>
+    <string name="home_btn_10">汇通论坛</string>
+    <string name="home_btn_11">客户服务</string>
+    <string name="home_btn_12">给我评分</string>
+    <string name="home_btn_13">开户指南</string>
+    <string name="home_btn_14">实盘直播</string>
+    <string name="home_btn_15">预备</string>
+    <string name="home_btn_16">预备</string>
+    <string name="home_btn_17">预备</string>
+    <string name="home_btn_18">预备</string>
+    <string name="infoD_title">新闻资讯</string>
+    <string name="btn_back">返回</string>
+    <string name="title_jdbj">金店报价</string>
+    <string name="etf_title_au">黄金ETF</string>
+    <string name="etf_title_ag">白银ETF</string>
+
+    <string-array name="planets_array">
+        <item>国际黄金</item>
+        <item>上金所</item>
+        <item>津贵所</item>
+        <item>广贵所</item>
+        <item>天矿所</item>
+        <item>渤商所</item>
+        <item>海西所</item>
+        <item>北商所</item>
+        <item>大圆银泰</item>
+        <item>兰溪汇丰</item>
+        <item>青岛国金</item>
+        <item>外汇市场</item>
+        <item>全球股指</item>
+        <item>NYME原油</item>
+        <item>IPE原油</item>
+        <item>COMEX期金</item>
+        <item>上海期货</item>
+    </string-array>
+    <string-array name="news_drawer_array">
+        <item>头条</item>
+        <item>市场</item>
+        <item>策略</item>
+        <item>评论</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <!-- 登录、注册、找回密码 -->
+    <string name="user_login">用户登录</string>
+    <string name="back">返回</string>
+    <string name="accounts">帐号：</string>
+    <string name="input_accounts">请输入昵称或手机号码</string>
+    <string name="password">密码：</string>
+    <string name="remember_password">记住密码</string>
+    <string name="input_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">马上注册</string>
+    <string name="reminder">如果您忘记了账号和密码，请点击这里</string>
+    <string name="zhibo">实盘直播</string>
+    <string name="dayingjia">大赢家</string>
+    <string name="tangulunjin">谈股论金</string>
+    <string name="point_focus_title">名师讲堂</string>
+    <string name="later_on_user">请稍候</string>
+    <string name="jiepanqu">每日解盘</string>
+    <string name="jishuqu">技术讲解</string>
+    <string name="share_queren">确认</string>
+    <string name="login_centre">正在登录中...</string>
+    <string name="login_succeed">恭喜你，登录成功！</string>
+    <string name="regiter_user">用户注册</string>
+    <string name="regiter_phone_number">手机号码:</string>
+    <string name="regiter_input_phone_number">请输入手机号码</string>
+    <string name="regiter_verification_code">验      证      码:</string>
+    <string name="regiter_input_verification_code">请输入验证码</string>
+    <string name="regiter_gain_verification_code">获取验证码</string>
+    <string name="regiter_password">密            码:</string>
+    <string name="regiter_input_password">请输入用户密码</string>
+    <string name="regiter_input_new_password">请输入新密码</string>
+    <string name="regiter_countersign_password">请确认新密码</string>
+    <string name="regiter_new_password">新      密      码:</string>
+    <string name="regiter_affirm_password">确认密码:</string>
+    <string name="regiter_countersign">注册登入</string>
+    <string name="regiter_find_password">找回密码</string>
+    <string name="regiter_caler">取消</string>
+    <string name="regiter">注册</string>
+    <!-- 名师讲堂 -->
+    <string name="point_listview_header_hint_normal">下拉刷新</string>
+    <string name="point_listview_header_hint_ready">松开刷新数据</string>
+    <string name="point_listview_header_hint_ready_history">松开查看更多历史数据</string>
+    <string name="point_listview_header_hint_history">下拉查看更多历史数据</string>
+    <string name="point_listview_header_hint_loading">正在加载...</string>
+    <string name="point_listview_header_last_time">上次更新时间：</string>
+    <string name="point_listview_footer_hint_normal">查看更多</string>
+    <string name="point_listview_footer_hint_ready">松开载入更多</string>
+    <string name="point_listview_acquire_video_password">获取视频密码</string>
+    <string name="point_listview_access_video">进入视频</string>
+    <string name="point_listview_watch_video">观看视频</string>
+    <string name="point_listview_video_tishi">该视频没有播放地址！</string>
+    <string name="point_listview_teacher">老师：</string>
+    <string name="point_listview_jiepan">每日解盘</string>
+    <string name="point_listview_jiangjie">技术讲解</string>
+    <string name="point_listview_jiangtang">名师讲堂</string>
+    <string name="point_listview_dial_video">是否拨打4000-720-760获取视频密码？</string>
+    <string name="point_listview_type">类别：</string>
+    <string name="point_listview_anchor">主播：</string>
+    <string name="point_listview_date">日期：</string>
+    <string name="point_listview_password">需要密码：</string>
+    <string name="point_listview_acquire">点击获取</string>
+    <string name="point_listview_input_password">密码输入</string>
+    <string name="point_listview_video_password">请输入密码</string>
+    <string name="point_listview_error_password">密码输入错误，请重新输入！</string>
+    <!-- 直播室信息 -->
+    <string name="introduce_theme">主&#160;&#160;&#160;&#160;题：</string>
+    <string name="introduce_viewpoint">观&#160;&#160;&#160;&#160;点：</string>
+    <string name="introduce_analyst">分析师：</string>
+    <string name="introduce_enter">点击进入</string>
+    <string name="introduce_remark">备&#160;&#160;&#160;&#160;注：</string>
+    <string name="introduce_sim_card">请检查您的SIM卡是否安装？</string>
+    <!-- 互动界面 -->
+    <string name="home_direct_seedings">直播</string>
+    <string name="home_interactions">互动</string>
+    <string name="home_essences">精华</string>
+    <string name="home_shout_singles">喊单</string>
+    <string name="home_send">发送</string>
+    <string name="home_refresh">刷新</string>
+    <string name="home_apply_account">申请开户</string>
+    <string name="home_immediately_account">立即开户</string>
+    <string name="home_user_name">请输入用户名</string>
+    <!-- 提示 -->
+    <string name="tishi">提示</string>
+    <string name="tishi_mail_account">无邮件账户，请设置邮件账户来发送电子邮件</string>
+    <string name="tishi_zhibo_null">暂无直播内容，请继续关注</string>
+    <string name="tishi_hudong_null">暂无互动内容，请继续关注</string>
+    <string name="tishi_jinghua_null">暂无精华内容，请继续关注</string>
+    <string name="tishi_handan_null">暂无喊单内容，请继续关注</string>
+    <string name="tishi_warm_prompt">温馨提示！</string>
+    <string name="tishi_dial">拨打</string>
+    <string name="tishi_whether_dial">是否拨打</string>
+    <string name="tishi_registration_successfu">注册成功！</string>
+    <string name="tishi_successfu_message">感谢您的注册，我们的客服人员会在2个小时内与您取得联系，请保持手机畅通，谢谢!</string>
+    <string name="tishi_que_dings">确定</string>
+    <string name="tishi_login_out">退出登录</string>
+    <string name="tishi_logout">确定要退出登录吗？</string>
+    <string name="tishi_shipan_list">正在获取实盘直播列表!</string>
+    <string name="tishi_zhibo_list">正在获取直播列表!</string>
+    <string name="tishi_hudong_list">正在获取互动列表!</string>
+    <string name="tishi_jinghua_list">正在获取精华列表!</string>
+    <string name="tishi_handan_list">正在获取喊单列表!</string>
+    <string name="tishi_mingshi_list">正在获取名师讲堂列表!</string>
+    <string name="tishi_zhibojian_kaifang1">登录信息错误，请重新登录</string>
+    <string name="tishi_zhibojian_kaifang2">此直播间只对实盘用户开放。\n客服电话：4000-720-760</string>
+    <string name="tishi_zhibojian_kaifang3">此直播只对vip用户开放。\n客服电话：4000-720-760</string>
+    <string name="tishi_zhibojian_kaifang4">进入直播室错误，请联系客服。\n客服电话：4000-720-760</string>
+    <string name="tishi_jurisdiction_comment">您无权发表评论,客服电话:4000-720-760</string>
+    <string name="tishi_jurisdiction_huifu_comment">您无权回复评论,客服电话:4000-720-760</string>
+    <string name="tishi_authority_message">您目前的权限不能查看该信息，详情垂询4000-720-760</string>
+    <string name="tishi_send_succeed">发送成功</string>
+    <string name="tishi_send_null_messge">不能发送空消息</string>
+    <string name="tishi_input_comment_message">请填写评论消息</string>
+    <string name="tishi_input_no_comment">您无权发表评论</string>
+    <string name="tishi_download">建议使用WPS第三方app打开</string>
+    <string name="tishi_yes">是</string>
+    <string name="tishi_no">否</string>
+    <string name="network_connection_failure">网络连接失败,请稍后重试...</string>
+    <string name="judge_user_password">密码不能少于6位数！</string>
+    <string name="judge_user_name">用户名不能为空！</string>
+    <string name="judge_code_input_number">验证码是4位数字，请重新输入！</string>
+    <string name="judge_phone_number_format">手机号码格式不正确！</string>
+    <string name="judge_phone_number_null">手机号码不能为空！</string>
+    <string name="judge_pass_word_input">密码输入不一致，请重新输入!</string>
+    <string name="judge_please_input_phone">请输入手机号码！</string>
+	<!-- 客户服务 -->
+	<string name="service_company_website">公司网站：http://www.hzwychina.com/</string>
+	<string name="service_dayingjia_website">大赢家网站：http://www.91baiyin.com.cn/index.html</string>
+	<string name="service_dayingjia_feedback">大赢家 意见反馈(安卓客户端)</string>
+	<string name="service_dayingjia_opinion">意见正文：</string>
+	<string name="service_dayingjia_dial">确定拨打技术支持电话：\n4000-720-760吗？</string>
+	<string name="service_dayingjia_gengxin">更新</string>
+	<string name="service_dayingjia_bugengxin">不更新</string>
+	<string name="service_dayingjia_discover">发现新版本，需要下载最新版吗？</string>
+	<string name="service_dayingjia_zuixinbanben">请更新到最新版使用！</string>
+	
+</resources>

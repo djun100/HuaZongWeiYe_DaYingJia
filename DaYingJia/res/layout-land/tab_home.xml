@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/home_ad"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/paddinglr_x2"
+        android:layout_weight="1.6"
+        android:background="@color/home_btn_09c"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:flipInterval="30"
+            android:paddingLeft="@dimen/paddinglr"
+            android:paddingRight="@dimen/paddinglr"
+            android:persistentDrawingCache="animation" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+        </FrameLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/black"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/indicatiors_b1"
+            style="@style/home_indicatiors" />
+
+        <LinearLayout
+            android:id="@+id/indicatiors_b2"
+            style="@style/home_indicatiors" />
+
+        <LinearLayout
+            android:id="@+id/indicatiors_b3"
+            style="@style/home_indicatiors" />
+
+        <LinearLayout
+            android:id="@+id/indicatiors"
+            style="@style/home_indicatiors" />
+    </FrameLayout>
+
+</LinearLayout>

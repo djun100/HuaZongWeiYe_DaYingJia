@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_h"
+        android:background="#0077b7"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <Button
+            android:id="@+id/button_backbtn"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/back_button"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/back"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/paging_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_searchbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/genin_bg"
+        android:orientation="vertical" >
+
+        <!--
+   <com.hzwydyj.finace.present.view.PointListView
+        android:id="@+id/pointListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#dadada"
+        android:dividerHeight="1px"
+        android:footerDividersEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+   </com.hzwydyj.finace.present.view.PointListView>  -->
+
+        <ListView
+            android:id="@+id/pointListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/paddinglr"
+            android:layout_marginLeft="@dimen/paddinglr"
+            android:layout_marginRight="@dimen/paddinglr"
+            android:layout_marginTop="@dimen/paddinglr"
+            android:cacheColorHint="#00000000"
+            android:footerDividersEnabled="false"
+            android:listSelector="@android:color/transparent" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

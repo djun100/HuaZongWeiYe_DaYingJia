@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_new_bg" >
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/paddinglr"
+        android:layout_marginLeft="@dimen/paddinglr"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_new" >
+    </ImageView>
+
+</RelativeLayout>

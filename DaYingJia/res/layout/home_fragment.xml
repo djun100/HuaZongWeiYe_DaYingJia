@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/paddinglr"
+    android:layout_marginTop="@dimen/paddinglr"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/home_btn_layout3" >
+
+        <LinearLayout
+            android:id="@+id/btn_01"
+            style="@style/home_btn_style"
+            android:background="#368ff5" >
+
+            <!-- android:background="@drawable/home_btn_09c" -->
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/home_zhu_1" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_01" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_02"
+            style="@style/home_btn_style"
+            android:background="#747ae8" >
+
+            <!-- android:background="@drawable/home_btn_93c_back" -->
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/home_zhu_2" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_02" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_03"
+            style="@style/home_btn_style"
+            android:background="#9656f3" >
+
+            <!-- android:background="@drawable/home_btn_09c" -->
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/home_zhu_3" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_03" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_btn_layout3" >
+
+        <LinearLayout
+            android:id="@+id/btn_04"
+            style="@style/home_btn_style"
+            android:background="#0fc4d9" >
+
+            <!-- android:background="@drawable/home_btn_f80" -->
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/home_zhu_4" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_04" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_05"
+            style="@style/home_btn_style"
+            android:background="#14aa97" >
+
+            <!-- android:background="@drawable/home_btn_c00" -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    style="@style/home_btn_img"
+                    android:src="@drawable/home_zhu_5" />
+
+                <TextView
+                    style="@style/home_btn_text"
+                    android:text="@string/home_btn_05" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/video" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_06"
+            style="@style/home_btn_style"
+            android:background="#c03055" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <!-- android:background="@drawable/home_btn_f80_back" -->
+
+                <ImageView
+                    style="@style/home_btn_img"
+                    android:src="@drawable/home_zhu_6" />
+
+                <TextView
+                    style="@style/home_btn_text"
+                    android:text="@string/home_btn_14" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/live" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_btn_layout3" >
+
+        <LinearLayout
+            android:id="@+id/btn_07"
+            style="@style/home_btn_style"
+            android:background="#84d018" >
+
+            <!-- android:background="@drawable/home_btn_93c" -->
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/home_zhu_7" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_07" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_08"
+            style="@style/home_btn_style"
+            android:background="#f4b613" >
+
+            <!-- android:background="@drawable/home_btn_690" -->
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/home_zhu_8" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_11"
+            style="@style/home_btn_style"
+            android:background="#d75c1e" >
+
+            <!-- android:background="@drawable/home_btn_09c" -->
+
+            <ImageView
+                style="@style/home_btn_img"
+                android:src="@drawable/home_zhu_9" />
+
+            <TextView
+                style="@style/home_btn_text"
+                android:text="@string/home_btn_11" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

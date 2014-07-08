@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_h"
+        android:background="@color/titlebar_bg" >
+
+        <Button
+            android:id="@+id/yingjiabackbtn"
+            style="@style/titlebar_left_textview"
+            android:text="@string/btn_back" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/titlebar_title"
+            android:text="赢家内参" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/analystsWebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

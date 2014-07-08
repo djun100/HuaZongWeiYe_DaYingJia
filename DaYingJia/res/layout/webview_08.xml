@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/NewsTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_h"
+        android:layout_alignParentTop="true"
+        android:background="#0077b7"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <!-- android:background="@color/titlebar_bg" -->
+
+        <Button
+            android:id="@+id/Btn_fanhui"
+            style="@style/titlebar_left_button"
+            android:text="@string/btn_back" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/titlebar_title"
+            android:layout_width="wrap_content" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
